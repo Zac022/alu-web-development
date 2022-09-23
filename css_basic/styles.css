@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    width:1024px;
+    padding:10px;
+    background-color:#ebebeb;
+    font-size:14px;
+    font-family:Verdana
+
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex:auto
+}
+main article{
+    flex:2;
+    overflow-y: auto;
+}
+main aside{
+    flex: 1;
+    overflow-y: auto;
+}
